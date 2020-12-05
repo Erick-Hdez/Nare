@@ -65,15 +65,6 @@ img {
   height: auto;
 }
 
-
-/*font-family: 'Montserrat', sans-serif; */
-/*font-family: 'Open Sans', sans-serif; */
-/*font-family: 'Raleway', sans-serif; */
-/*font-family: 'Stalemate', cursive; */
-/* font-family: 'Lora', serif;
-font-family: 'Pacifico', cursive;
-font-family: 'Poiret One', cursive; */
-
 /* **** Wrapp body page *****/
 .wrapp-container {
   display: grid;
@@ -102,6 +93,7 @@ font-family: 'Poiret One', cursive; */
   flex-direction: column;
   height: auto;  
 }
+
 /****** Navigation ******/
 nav {
   position: fixed;
@@ -113,7 +105,6 @@ nav {
   opacity: 0.8;
   grid-area: nav;  
   height: auto;
-  /* border-bottom: 1px solid var(--secondary-color); */
 }
 .navbar {
   transition: var(--speed);
@@ -315,7 +306,6 @@ header {
   "img-circle_3 img-circle_3"
   "content_3 content_3";
   grid-gap: .2rem;
-  /* padding: 3rem; */
 }
 
 #img-circle_1 {
@@ -330,22 +320,18 @@ header {
 
 #img-circle_3 {
   grid-area: img-circle_3;
-  /* padding-top: var(--main-padding); */
 }
 
 #content_1 {
   grid-area: content_1;
-  /* padding-top: var(--main-padding); */
 } 
 
 #content_2 {
   grid-area: content_2;
-  /* padding-top: var(--main-padding); */
 } 
 
 #content_3 {
   grid-area: content_3;
-  /* padding-top: var(--main-padding); */
 }
 
 #content_1,
@@ -383,20 +369,13 @@ header {
   color: #666666;
 }
 
-/*  ###### Sections ####### */
-#about .column span {
-  font-family: 'Stalemate', cursive;
-  font-size: 2rem;
-  font-weight: 500;
-}
-
-/* ****** Carousel ****** */
+/* ####### Sections ####### */
+/* ******* Carousel ******* */
 #menu {
   background: #ffffff;
   grid-area: menu;
   
 }
-
 .carousel h2 {
   font-family: 'Stalemate', cursive;
   font-size: 3rem;

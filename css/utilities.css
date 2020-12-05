@@ -162,8 +162,9 @@
   font-weight: 100;
 }
 
-.flex-columns .column-2 > h4 {
+.flex-columns .column-2 > h3 {
   display: block;
+  font-size: 3rem;
   margin: 0 auto;
   margin-bottom: 20px;
   text-align: center;
@@ -173,11 +174,11 @@
   margin: 20px 0;
 }
 .flex-columns ul p {
-  border-bottom: 1.5px dotted var(--primary-color);
+  border-bottom: 1.5px dotted var(--primary-light-color);
 } 
+
 .flex-columns span {
   font-family: 'Stalemate', cursive;
-  font-size: 2rem;
-  font-weight: 500;
-
+  font-size: 2.5rem;
+  font-weight: 400;
 }
