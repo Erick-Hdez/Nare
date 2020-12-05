@@ -173,11 +173,20 @@
         <h2>Únete al club</h2>
         <p>¿Quieres recibir nuestras mejores promociones? ¡No lo pienses más! Regálanos un momento de tu
          tiempo y escribe tu correo electrónico ¡No te arrepentirás!</p>
+        <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" @submit.prevent="handleSubmit">
+          <input type="email" name="email" placeholder="Email...">
+          <input type="submit" value="Suscríbete" class="btn btn-primary">
+        </form>
+      </div>
+      <!-- <div>
+        <h2>Únete al club</h2>
+        <p>¿Quieres recibir nuestras mejores promociones? ¡No lo pienses más! Regálanos un momento de tu
+         tiempo y escribe tu correo electrónico ¡No te arrepentirás!</p>
         <form name="contact" method="POST" data-netlify="true">
           <input type="email" placeholder="Email...">
           <input type="submit" value="Suscríbete" class="btn btn-primary">
         </form>
-      </div>
+      </div> -->
       
       <div class="schedule">
        <h2>Horario</h2>
