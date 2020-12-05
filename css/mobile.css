@@ -223,6 +223,16 @@
   .navbar #nav-items {
     display: none;
   }
+  .navbar .container,
+  .navbar .container-fluid {
+    display: grid;
+    grid-template-columns: repeat(3. 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "social-nav"
+    "logo logo logo";
+    height: 140px;
+  }
   .navbar  #social-nav {
     position: relative;
     z-index: 1;

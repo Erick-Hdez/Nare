@@ -54,6 +54,12 @@ h2, h3, h4, h5, h6 {
   font-size: 2rem;
 }
 
+span {
+  font-family: 'Stalemate', cursive;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
 img {
   width: 100%;
   height: auto;
