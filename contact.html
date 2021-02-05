@@ -79,7 +79,7 @@
         <div class="column-1  p-3 py-3">
           <h1>Visitanos o déjanos tu mensaje</h1>
           <div class="icons">
-            <a href="https://www.google.com/maps/place/Fisicoqu%C3%ADmica+3501,+Tecnol%C3%B3gico,+31200+Chihuahua,+Chih./@28.6615327,-106.0853169,19.43z/data=!4m5!3m4!1s0x86ea436cfb9d16f1:0x148593b7678ba21!8m2!3d28.6617266!4d-106.0851787"  target="_blank"><i class="fas fa-map-marked-alt fa-2x" target="_blank"></i> Fisicoquímica 3501, Chihuahua México</a>
+            <a href="https://www.google.com/maps/place/Fisicoqu%C3%ADmica+3505,+Tecnol%C3%B3gico,+31200+Chihuahua,+Chih./@28.6617574,-106.0870776,17z/data=!3m1!4b1!4m5!3m4!1s0x86ea436cf946ae2d:0x78ceb3df7adc7829!8m2!3d28.6617527!4d-106.0848889"  target="_blank"><i class="fas fa-map-marked-alt fa-2x" target="_blank"></i> Fisicoquímica 3505, Chihuahua México</a>
           </div>
           <div class="icons">
             <i class="fas fa-envelope fa-2x"></i> nare@something.com
@@ -92,7 +92,8 @@
       <div class="column">
         <div class="column-2 bg--primary-dark">
           <h4>Nosotros Nos Comunicamos Contigo</h4>
-          <form  name="contact" method="POST" data-netlify="true" class="callback-form">
+          <!-- <form  name="contact" method="POST" data-netlify="true" class="callback-form"> -->
+          <form  method="POST" data-netlify="true" data-netlify-recaptcha="true" class="callback-form">
             <div class="form-control">
               <label for="name"></label>
               <input type="text" name="name" id="name" placeholder="Nombre"/>
@@ -108,6 +109,9 @@
             <div class="form-control">
               <label for="message"></label>
               <textarea name="mensaje" id="mensaje" rows="10" type="textarea" placeholder="Mensaje"></textarea>
+            </div>
+            <div class="my-2">
+              <div data-netlify-recaptcha="true"></div>
             </div>
             <input type="submit" value="Enviar" id="submit" class="btn" />
           </form>
@@ -182,11 +186,11 @@
       <div class="schedule">
        <h2>Horario</h2>
        <i class="far fa-calendar-alt"></i>
-       <p>Miércoles a Domingo</p>
+       <p>Lunes a Domingo</p>
        <i class="far fa-clock"></i>
-       <p>De 11:00 am a 2:00 pm</p>
-       <p>&</p>
-       <p>De 4:00 pm a 7:00 pm</p>      
+       <p>De 11:00 am a 8:00 pm</p>
+       <!-- <p>&</p>
+       <p>De 4:00 pm a 7:00 pm</p>       -->
        <a href="contact.html" class="btn btn-secondary">Más Información</a>
       </div>
 
